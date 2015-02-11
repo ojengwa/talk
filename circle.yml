@@ -13,7 +13,7 @@ test:
   post:
     - cf api https://api.ng.bluemix.net
     - cf login -u $BLUEMIX_USER -p $BLUEMIX_PASSWORD
-    - cf target -o andela -s GDG UNN
+    - cf target -o andela -s 'GDG UNN'
     - cf a
 
 deployment:
