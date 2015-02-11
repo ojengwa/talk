@@ -8,8 +8,6 @@ dependencies:
     - curl -v -L -o cf-cli_amd64.deb 'https://cli.run.pivotal.io/stable?release=debian64&source=github'
     - sudo dpkg -i cf-cli_amd64.deb
     - cf -v
-    - curl -o $HOME/google_appengine_1.9.13.zip https://storage.googleapis.com/appengine-sdks/featured/google_appengine_1.9.13.zip
-    - unzip -q -d $HOME $HOME/google_appengine_1.9.13.zip
 
 test:
   post:
