@@ -1,5 +1,5 @@
 machine:
-  enviroment:
+  environment:
     SECRET_KEY='kshbhsfjjsfsfhiyfshiusfhihsihih'
     DJANGO_ENV='production'
 
