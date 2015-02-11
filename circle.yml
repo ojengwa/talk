@@ -1,7 +1,7 @@
 machine:
   environment:
-    SECRET_KEY:' kshbhsfjjsfsfhiyfshiusfhihsihih'
-    DJANGO_ENV: 'production'
+    SECRET_KEY: kshbhsfjjsfsfhiyfshiusfhihsihih
+    DJANGO_ENV: production
 
 dependencies:
   pre:
