@@ -12,8 +12,8 @@ dependencies:
 test:
   post:
     - cf api https://api.ng.bluemix.net
-    - cf auth $BLUEMIX_USER $BLUEMIX_PASSWORD
-    - cf target -o $BLUEMIX_USER -s dev
+    - cf login -u $BLUEMIX_USER -p $BLUEMIX_PASSWORD
+    - cf target -o andela -s GDG UNN
     - cf a
 
 deployment:
